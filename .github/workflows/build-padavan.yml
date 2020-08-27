@@ -103,8 +103,8 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=n/d' .config
         #echo "自定义项=y" >> .config
         #echo "CONFIG_FIRMWARE_ENABLE_USB=n" >> .config
-        #echo "CONFIG_FIRMWARE_INCLUDE_ARIA=y" >> .config
-        #echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=y" >> .config
         #########################################################################################
